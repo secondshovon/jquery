@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: linear-gradient(to right, #F7ECDE, #E9DAC1);
+}
+.todo-app{
+	margin-top: 60px;
+}
+.add_task{
+	padding: 14px;
+	width: 500px;
+	border: none;
+	color: black;
+	font-size: 18px;
+}
+.add_task:focus{
+	outline: none;
+}
+.incompleted-task{
+	margin: 32px 0;
+}
+.incompleted-task .task{
+	background-color: rgba(233, 69, 96, 0.7);
+	width: 500px;
+	padding: 14px;
+	font-size: 16px;
+	color: white;
+	margin: 16px 0;
+}
+.task i{
+	float: right;
+}
+i:hover{
+	cursor: pointer;
+}
+
+
